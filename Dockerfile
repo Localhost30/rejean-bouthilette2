@@ -3,7 +3,7 @@ FROM nginx:alpine
 
 # Copy the static HTML file to the Nginx document root
 # We rename it to index.html so it loads by default
-COPY crb-events-redesign(5).html /usr/share/nginx/html/index.html
+COPY crb-events-redesign(6).html /usr/share/nginx/html/index.html
 
 # Expose port 80
 EXPOSE 80
